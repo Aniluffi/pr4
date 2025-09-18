@@ -1,41 +1,42 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
 *.exe
-*.out
-*.app
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.userprefs
+*.vs/
+.vscode/
 
-# debug information files
-*.dwo
+# Session and secrets
+*.session
+session.dat
+WTelegram.session
+appsettings.Development.json
+appsettings.Local.json
+*.secret.json
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Rider / VSCode / JetBrains
+.idea/
+*.iml
+
+# NuGet
+*.nupkg
+packages/
+
+# Other
+wwwroot/lib/
